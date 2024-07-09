@@ -33,7 +33,7 @@ export default function Home() {
               <Link className="flex mx-auto md:mx-0 items-center justify-center md:w-72 w-full h-20 bg-orange-600 text-xl md:text-2xl text-white p-3 font-bold hover:bg-slate-300 hover:text-orange-600 hover:scale-110 transition-all" href="https://wa.me/5522998051770"> Saiba Mais</Link>
 
             </div>
-            <Image src={ajuda} className="md:max-w-sm lg:max-w-2xl" alt="ajudamos você da melhor forma" />
+            <Image src={ajuda} className="md:max-w-sm lg:max-w-xl xl:max-w-3xl" alt="ajudamos você da melhor forma" />
 
           </div>
         </div>
