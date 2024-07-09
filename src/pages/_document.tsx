@@ -11,6 +11,13 @@ export default function Document() {
                 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff" />
+
+
+                <meta charSet="utf-8" />
+                <meta name="description" content="Instituto icabofrio ajudando você" />
+                <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=" />
+                <meta name="robots" content="index,nofollow"></meta>
+                <title>Icabofrio - ONG</title>
             </Head>
             <body>
                 <Main />

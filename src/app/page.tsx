@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import Image from "next/image";
 import ajuda from "../assets/img/ajuda.gif"
 import clinico from "../assets/img/clinico.png"
@@ -15,14 +14,9 @@ import saoPedro from "../assets/img/sao-pedro.png";
 
 
 
-export const metadata: Metadata = {
-  title: "Icabofrio - ONG",
-  description: "ONG voltlada para ajudar o povo",
-};
-
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <section >
         <div className="container mx-auto text-center md:text-start">
           <div className="flex flex-col justify-between md:flex-row p-4 gap-4">
