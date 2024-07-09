@@ -6,7 +6,7 @@ import { useState } from "react";
 import { FaEnvelope, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import logo from "../../../assets/img/logo.svg";
 
-export const Navbar = () => {
+const Navbar: React.FC = () => {
     const [openNavbar, setOpenNavbar] = useState(false);
 
     const nav = [
@@ -82,4 +82,5 @@ export const Navbar = () => {
     );
 };
 
-/**   */
+
+export default Navbar;

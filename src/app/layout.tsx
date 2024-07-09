@@ -3,7 +3,7 @@ import logo from "../assets/img/logo.svg";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { FaInstagram, FaWhatsapp, FaFacebook, FaEnvelope, FaPhone } from "react-icons/fa"
-import { Navbar } from "./Components/NavBar/page";
+import Navbar from "./Components/NavBar/page";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,9 +18,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
-
-
+      <body className={inter.className}  >
         <header className="h-10 bg-green-600 text-white hidden md:flex" >
           <div className="container flex flex-row justify-between w-full mx-auto">
             <div className="flex flex-row justify-center items-center">
