@@ -70,8 +70,8 @@ export default function Home() {
       </section>
 
       <section >
-        <div className="cursor-pointer container flex flex-col md:flex-row mx-auto justify-between gap-5 p-20">
-          <div className="flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
+        <div className="cursor-pointer container flex flex-col md:flex-row mx-auto justify-between gap-5 p-10">
+          <div className="flex text-center md:w-80  flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
             <Image src={clinico} width={100} height={100} alt="" />
             <h2 className="font-bold text-3xl" >Clínico Geral</h2>
             <p>clique aqui</p>
