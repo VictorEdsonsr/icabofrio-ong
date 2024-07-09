@@ -20,23 +20,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}  >
-        <header className="h-10 bg-green-600 text-white hidden md:flex" >
-          <div className="container flex flex-row justify-between w-full mx-auto">
+        <header className="h-10 p-6 bg-green-600 text-white hidden md:flex" >
+          <div className="container flex flex-row justify-between w-full  mx-auto">
             <div className="flex flex-row justify-center items-center">
 
               <Link className="flex flex-row justify-center items-center mr-5" href="mailto:icabofriosaudevoluntaria@gmail.com">
-                <FaEnvelope className="text-orange-600 mr-2" /> icabofriosaudevoluntaria@gmail.com
+                <span className="bg-orange-600 rounded-full p-2 flex flex-col justify-center items-center  mr-2"> <FaEnvelope className="text-white " /></span> icabofriosaudevoluntaria@gmail.com
               </Link>
 
               <Link href="https://wa.me/5522998051770" className="flex flex-row justify-center items-center">
-                <FaWhatsapp size={20} className="text-orange-600 mr-1" /> (22) 9 9805-1770
+                <span className="bg-orange-600 rounded-full p-2 flex flex-col justify-center items-center  mr-2"><FaWhatsapp size={20} className="text-white " /></span> (22) 9 9805-1770
               </Link>
             </div>
             <div className="flex flex-row justify-center items-center">
-              <Link href="https://www.instagram.com/icabofriosaudevoluntaria/">
-                <FaInstagram size={20} className="text-orange-600 mr-3" />
+              <Link className="bg-orange-600 rounded-full p-2 flex flex-col justify-center items-center mr-3" href="https://www.instagram.com/icabofriosaudevoluntaria/">
+                <FaInstagram size={20} className="text-white " />
               </Link>
-              <FaFacebook size={20} className="text-orange-600" />
+              <span className="bg-orange-600 rounded-full p-2 flex flex-col justify-center items-center" >
+                <FaFacebook size={20} className="text-white" />
+              </span>
             </div>
           </div>
         </header>
