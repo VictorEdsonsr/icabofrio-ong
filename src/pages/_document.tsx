@@ -14,10 +14,8 @@ export default function Document() {
 
 
                 <meta charSet="utf-8" />
-                <meta name="description" content="Instituto icabofrio ajudando você" />
                 <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=" />
                 <meta name="robots" content="index,nofollow"></meta>
-                <title>Icabofrio - ONG</title>
             </Head>
             <body>
                 <Main />

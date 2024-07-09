@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import ajuda from "../assets/img/ajuda.gif"
 import clinico from "../assets/img/clinico.png"
@@ -13,6 +14,11 @@ import iguaba from "../assets/img/iguaba-grande.png";
 import saoPedro from "../assets/img/sao-pedro.png";
 
 
+
+export const metadata: Metadata = {
+  title: "Icabofrio - ONG",
+  description: "ONG voltlada para ajudar o povo",
+};
 
 export default function Home() {
   return (
