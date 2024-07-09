@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                         <Link key={index} href={navLink.link}>
                             <li
                                 onClick={() => setOpenNavbar(openNavbar ? !openNavbar : openNavbar)}
-                                className="p-3 px-10 text-2xl cursor-pointer font-mons mx-4 hover:text-white hover:bg-orange-500 rounded-full transition"
+                                className="p-3 px-10 text-2xl cursor-pointer font-mons mx-2 hover:text-white hover:bg-orange-500 rounded-full transition"
                             >
                                 {navLink.name}
                             </li>

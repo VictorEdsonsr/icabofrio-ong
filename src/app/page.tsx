@@ -27,13 +27,13 @@ export default function Home() {
         <div className="container mx-auto text-center md:text-start">
           <div className="flex flex-col justify-between md:flex-row p-4 gap-4">
             <div id="text" className="flex text-center md:text-start flex-col md:justify-around gap-10 md:gap-0">
-              <h2 className="text-3xl md:text-6xl max-w-2xl font-bold text-green-900">Descubra como podemos ajudar você
+              <h2 className="text-3xl lg:text-6xl max-w-2xl font-bold text-green-900">Descubra como podemos ajudar você
                 a ter mais qualidade de vida.</h2>
-              <p className="max-w-xl mt-[-25px] text-md">Saiba como nossas soluções podem transformar seu bem-estar e proporcionar mais satisfação no dia a dia.</p>
+              <p className="max-w-xl md:my-2 text-md">Saiba como nossas soluções podem transformar seu bem-estar e proporcionar mais satisfação no dia a dia.</p>
               <Link className="flex mx-auto md:mx-0 items-center justify-center md:w-72 w-full h-20 bg-orange-600 text-xl md:text-2xl text-white p-3 font-bold hover:bg-slate-300 hover:text-orange-600 hover:scale-110 transition-all" href="https://wa.me/5522998051770"> Saiba Mais</Link>
 
             </div>
-            <Image src={ajuda} className="md:max-w-2xl" alt="ajudamos você da melhor forma" />
+            <Image src={ajuda} className="md:max-w-sm lg:max-w-2xl" alt="ajudamos você da melhor forma" />
 
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Home() {
             <p className="font-bold text-white">Transporte UTI aéreo, serviço contratado e pago pela Secretária Estadual da Saúde de Tocantins (SESAU-TO)
             </p>
           </div>
-          <div className="bg-green-600 max-w-96  md:w-96 p-10 flex items-center justify-center  mx-0">
+          <div className="bg-green-600 max-w-96  md:w-96 px-20 py-10 md:py-10 md:px-10 flex items-center justify-center  mx-auto">
             <p className="font-bold text-white">Cirurgias Cardíacas Pediátricas</p>
           </div>
           <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
