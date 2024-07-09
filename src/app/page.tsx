@@ -1,113 +1,168 @@
+import { Metadata } from "next";
 import Image from "next/image";
+import ajuda from "../assets/img/ajuda.gif"
+import clinico from "../assets/img/clinico.png"
+import pediatria from "../assets/img/pediatria.png"
+import cirurgia from "../assets/img/cirurgia.png"
+import Link from "next/link";
+import caboFrio from "../assets/img/cabo-frio.png";
+import araruama from "../assets/img/araruama.png";
+import buzios from "../assets/img/buzios.png";
+import arraial from "../assets/img/arraial.png";
+import rioDeJaneiro from "../assets/img/rio-de-janeiro.png";
+import iguaba from "../assets/img/iguaba-grande.png";
+import saoPedro from "../assets/img/sao-pedro.png";
+
+
+
+export const metadata: Metadata = {
+  title: "Icabofrio - ONG",
+  description: "ONG voltlada para ajudar o povo",
+};
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="">
+      <section >
+        <div className="container mx-auto text-center md:text-start">
+          <div className="flex flex-col justify-between md:flex-row p-4 gap-4">
+            <div id="text" className="flex text-center md:text-start flex-col md:justify-around gap-10 md:gap-0">
+              <h2 className="text-3xl md:text-6xl max-w-2xl font-bold text-green-900">Descubra como podemos ajudar você
+                a ter mais qualidade de vida.</h2>
+              <p className="max-w-xl mt-[-25px] text-md">Saiba como nossas soluções podem transformar seu bem-estar e proporcionar mais satisfação no dia a dia.</p>
+              <Link className="flex mx-auto md:mx-0 items-center justify-center md:w-72 w-full h-20 bg-orange-600 text-xl md:text-2xl text-white p-3 font-bold hover:bg-slate-300 hover:text-orange-600 hover:scale-110 transition-all" href="https://wa.me/5522998051770"> Saiba Mais</Link>
+
+            </div>
+            <Image src={ajuda} className="md:max-w-2xl" alt="ajudamos você da melhor forma" />
+
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <section className="my-16">
+        <div className="container p-5 flex justify-between flex-col md:flex-row mx-auto gap-5">
+          <div className="text-center md:text-start">
+            <h2 className="text-green-900 font-bold text-3xl md:text-4xl">O que é o Instituto Icabofrio?</h2>
+            <p className="text-green-950 text-md">Somos uma instituição privada, sem fins lucrativos, que atua em
+              parceria formal com o Estado e colabora de forma complementar,
+              para a consolidação do Sistema Único de Saúde – SUS, conforme
+              previsto em sua Lei Orgânica – Lei nº 8080/90, planejado e efetivado
+              em consonância com as diretrizes da Lei Federal nº 9.637, de 15 de
+              maio de 1998, e Leis Estaduais e Municipais vigentes que dispõem
+              sobre a qualificação de entidades de Organização Social, e rege-se
+              pelo presente Estatuto Social, Qualificação, Regimento Interno e
+              pelas disposições legais aplicáveis</p>
+          </div>
+          <div className="text-center md:text-end">
+            <h2 className="text-green-900 font-bold text-3xl mt-5 md:mt-0 md:text-4xl">O PROPÓSITO</h2>
+            <p className="text-green-950 text-md">O pilar estrutural do Instituto Icabofrio tem como finalidade única
+              garantir a qualidade absoluta no produto ofertado em gestão de
+              saúde, com excelência reconhecida em qualidade, mantendo a
+              união, alinhamento e competências garantidas, com funcionalidade
+              das estruturas organizacionais interligadas e em sintonia contínua,
+              resultando no alcance da visão da Instituição no que se refere a
+              satisfação aos clientes, responsabilidade social, excelência em
+              gestão de qualidade dos serviços de saúde, compromisso com
+              resultados, confiabilidade, transparência, resiliência e
+              humanização</p>
+          </div>
+        </div>
+      </section>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <section >
+        <div className="cursor-pointer container flex flex-col md:flex-row mx-auto justify-between gap-5 p-20">
+          <div className="flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
+            <Image src={clinico} width={100} height={100} alt="" />
+            <h2 className="font-bold text-3xl" >Clínico Geral</h2>
+            <p>clique aqui</p>
+          </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          <div className="cursor-pointer flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl  rounded">
+            <Image src={pediatria} width={100} height={100} alt="" />
+            <h2 className="font-bold text-3xl" >Pediatria</h2>
+            <p>clique aqui</p>
+          </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+          <div className="cursor-pointer flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
+            <Image src={cirurgia} width={100} height={100} alt="" />
+            <h2 className="font-bold text-3xl" >Cirurgia Geral</h2>
+            <p>clique aqui</p>
+          </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        </div>
+      </section>
+
+
+      <section className="text-center my-10 p-2">
+        <h2 className="font-bold text-2xl md:text-4xl  text-green-900 mb-5">O INSTITUTO ICABOFRIO REALIZA</h2>
+        <div className="container mx-auto flex flex-col md:flex-row text-center gap-3 justify-center">
+          <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
+            <p className="font-bold text-white">Transporte UTI aéreo, serviço contratado e pago pela Secretária Estadual da Saúde de Tocantins (SESAU-TO)
+            </p>
+          </div>
+          <div className="bg-green-600 max-w-96  md:w-96 p-10 flex items-center justify-center  mx-0">
+            <p className="font-bold text-white">Cirurgias Cardíacas Pediátricas</p>
+          </div>
+          <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
+            <p className="font-bold text-white">Sopro Sistólico  Cardiopatia Congênita Complexa</p>
+          </div>
+          <div className="bg-green-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
+            <p className="font-bold text-white">Cirurgia Cardíaca Pediátrica para fechamento de canal arterial</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-center my-32 p-2">
+        <h2 className="font-bold text-2xl md:text-4xl  text-green-900 mb-12">Qualificações e Credenciamentos</h2>
+        <div className="container mx-auto flex flex-col md:flex-row text-center md:gap-48 flex-wrap gap-16 justify-center ">
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={caboFrio} width={200} height={200} alt="Bandeira de Cabo frio" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Cabo Frio
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={araruama} width={200} height={200} alt="Bandeira de Araruama" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Araruama
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={iguaba} width={200} height={200} alt="Bandeira de Iguaba" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Iguaba
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={rioDeJaneiro} width={200} height={200} alt="Bandeira de Estado do Rio de Janeiro" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Estado do Rio de Janeiro
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={saoPedro} width={200} height={200} alt="Bandeira de São Pedro" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              São Pedro
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={buzios} width={200} height={200} alt="Bandeira de Buzios" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Buzios
+            </figcaption>
+          </figure>
+          <figure className="flex flex-col justify-center items-center">
+            <Image src={arraial} width={200} height={200} alt="Bandeira de Arraial do Cabo" />
+            <figcaption className="text-2xl mt-2 font-bold text-green-600">
+              Arraial do Cabo
+            </figcaption>
+          </figure>
+
+        </div>
+      </section>
     </main>
   );
 }
+
+
+/*  */
