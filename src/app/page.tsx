@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="my-16">
+      <section className="my-16" id="sobre">
         <div className="container p-5 flex justify-between flex-col md:flex-row mx-auto gap-5">
           <div className="text-center md:text-start">
             <h2 className="text-green-900 font-bold text-3xl md:text-4xl">O que é o Instituto Icabofrio?</h2>

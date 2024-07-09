@@ -45,7 +45,7 @@ export default function RootLayout({
         {children}
         <WhatsappButton />
 
-        <footer className="bg-green-600 ">
+        <footer id="contato" className="bg-green-600 ">
           <div className="container mx-auto flex flex-col md:flex-row justify-around items-center text-white p-3 text-center md:text-start">
             <div >
               <Image className="mx-auto md:mx-0" src={logo} width={200} height={200} alt="" />
