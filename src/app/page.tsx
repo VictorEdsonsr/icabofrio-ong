@@ -74,19 +74,19 @@ export default function Home() {
           <div className="flex text-center md:w-80  flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
             <Image src={clinico} width={100} height={100} alt="" />
             <h2 className="font-bold text-3xl" >Clínico Geral</h2>
-            <p>clique aqui</p>
+
           </div>
 
           <div className="cursor-pointer flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl  rounded">
             <Image src={pediatria} width={100} height={100} alt="" />
             <h2 className="font-bold text-3xl" >Pediatria</h2>
-            <p>clique aqui</p>
+
           </div>
 
           <div className="cursor-pointer flex text-center md:w-80 flex-col items-center justify-center p-10 gap-3 transition-all hover:scale-110 bg-slate-200 shadow-xl rounded">
             <Image src={cirurgia} width={100} height={100} alt="" />
             <h2 className="font-bold text-3xl" >Cirurgia Geral</h2>
-            <p>clique aqui</p>
+
           </div>
 
         </div>
