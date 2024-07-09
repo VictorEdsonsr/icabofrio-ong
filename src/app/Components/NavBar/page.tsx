@@ -19,7 +19,9 @@ const Navbar: React.FC = () => {
         <>
 
             <nav className="flex justify-between items-center">
-                <Image className="md:hidden" src={logo} width={200} height={200} alt="logo da ONG Icabofrio" />
+                <Link href="/">
+                    <Image className="md:hidden" src={logo} width={200} height={200} alt="logo da ONG Icabofrio" />
+                </Link>
                 <ul className={openNavbar ?
                     " md:hidden pt-28 pr-32 h-screen fixed z-50 top-0 bottom-0 right-0 left-0 flex items-center justify-around flex-col bg-green-800 text-white translate-x-[25%] w-full transition ease-in-out delay-500"
                     : "md:hidden pt-28 pr-32 h-screen fixed z-50 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-around translate-x-[100%] w-full transition ease-in-out delay-500"}>
@@ -59,7 +61,9 @@ const Navbar: React.FC = () => {
 
 
             <nav className="hidden md:flex md:container md:mx-auto md:justify-between md:items-center">
-                <Image src={logo} width={250} height={250} alt="logo da ONG Icabofrio" />
+                <Link href="/">
+                    <Image src={logo} width={250} height={250} alt="logo da ONG Icabofrio" />
+                </Link>
                 <ul className="flex mx-auto">
                     {nav.map((navLink, index) => (
                         <Link key={index} href={navLink.link}>

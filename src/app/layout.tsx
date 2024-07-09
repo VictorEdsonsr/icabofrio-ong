@@ -6,6 +6,7 @@ import { FaInstagram, FaWhatsapp, FaFacebook, FaEnvelope, FaPhone } from "react-
 import Navbar from "./Components/NavBar/page";
 import Image from "next/image";
 import Link from "next/link";
+import WhatsappButton from "./Components/WhatsappButton/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +43,7 @@ export default function RootLayout({
 
         <Navbar />
         {children}
-
+        <WhatsappButton />
 
         <footer className="bg-green-600 ">
           <div className="container mx-auto flex flex-col md:flex-row justify-around items-center text-white p-3 text-center md:text-start">
