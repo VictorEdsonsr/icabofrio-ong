@@ -97,17 +97,17 @@ export default function Home() {
         <h2 className="font-bold text-2xl md:text-4xl  text-green-900 mb-5">O INSTITUTO ICABOFRIO REALIZA</h2>
         <div className="container mx-auto flex flex-col md:flex-row text-center gap-3 justify-center">
           <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
-            <p className="font-bold text-white">Transporte UTI aéreo, serviço contratado e pago pela Secretária Estadual da Saúde de Tocantins (SESAU-TO)
+            <p className="font-bold text-white">Cirurgias Cardíacas Pediátricas
             </p>
           </div>
           <div className="bg-green-600 max-w-96  md:w-96 px-20 py-10 md:py-10 md:px-10 flex items-center justify-center  mx-auto">
-            <p className="font-bold text-white">Cirurgias Cardíacas Pediátricas</p>
-          </div>
-          <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
             <p className="font-bold text-white">Sopro Sistólico  Cardiopatia Congênita Complexa</p>
           </div>
-          <div className="bg-green-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
+          <div className="bg-orange-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
             <p className="font-bold text-white">Cirurgia Cardíaca Pediátrica para fechamento de canal arterial</p>
+          </div>
+          <div className="bg-green-600 max-w-96 md:w-96 p-10 flex items-center justify-center mx-auto">
+            <p className="font-bold text-white">Tratamento de transtorno do espectro autista</p>
           </div>
         </div>
       </section>
